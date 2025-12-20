@@ -24,6 +24,6 @@ forgedatadev
 stefans_deco
 --all
 --output
-/Users/Stefan/Documents/GitHub/untitled/src/generated/resources
+/Users/Stefan/Desktop/stefans_deco/src/generated/resources
 --existing
-/Users/Stefan/Documents/GitHub/untitled/src/main/resources
+/Users/Stefan/Desktop/stefans_deco/src/main/resources
