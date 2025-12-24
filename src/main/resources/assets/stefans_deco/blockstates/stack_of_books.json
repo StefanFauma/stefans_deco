@@ -1,7 +1,17 @@
 {
 	"variants": {
-		"": {
-			"model": "stefans_deco:block/stack_of_books"
-		}
+		"facing=north": {
+			"model": "stefans_deco:block/stack_of_books",
+			"y": 270
+		},
+		"facing=south": {
+			"model": "stefans_deco:block/stack_of_books",
+			"y": 90
+		},
+		"facing=west": {
+			"model": "stefans_deco:block/stack_of_books",
+			"y": 180
+		},
+		"facing=east": { "model": "stefans_deco:block/stack_of_books" }
 	}
 }
