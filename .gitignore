@@ -1,0 +1,39 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# OS Dateien
+.DS_Store
+Thumbs.db
+
+# Minecraft / NeoForge
+run/
+*.bin
+*.dat
+*.lock
+crash-reports/
+
+# Java
+*.class
+
+# Generated resources
+generated/
