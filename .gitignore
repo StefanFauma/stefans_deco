@@ -1,7 +1,8 @@
 .git
 .gradle
 .idea
-blockbench
 build
 gradle
-run
+run/*
+!run/saves/
+!run/saves/**

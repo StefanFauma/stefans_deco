@@ -48,10 +48,10 @@ mouseSensitivity:0.3283594695615097
 damageTiltStrength:0.0
 highContrast:false
 narratorHotkey:true
-resourcePacks:[]
+resourcePacks:["vanilla","mod_resources"]
 incompatibleResourcePacks:[]
 lastServer:
-lang:en_us
+lang:de_de
 chatVisibility:0
 chatOpacity:1.0
 chatLineSpacing:0.0

@@ -1,5 +1,10 @@
 {
-  "itemGroup.stefans_deco": "Example Mod Tab",
-  "block.stefans_deco.example_block": "Example Block",
-  "item.stefans_deco.example_item": "Example Item"
+    "block.stefans_deco.small_stone": "Small Stone",
+    "block.stefans_deco.mirror": "Mirror",
+    "block.stefans_deco.stack_of_books": "Stack Of Books",
+    "block.stefans_deco.globe": "Globe",
+    "item.stefans_deco.small_stone": "Small Stone",
+    "item.stefans_deco.mirror": "Mirror",
+    "item.stefans_deco.stack_of_books": "Stack Of Books",
+    "item.stefans_deco.globe": "Globe"
 }
