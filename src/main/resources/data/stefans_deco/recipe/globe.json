@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    " S ",
+    "SLM",
+    " W "
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    },
+    "M": {
+      "item": "minecraft:map"
+    },
+    "W": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "stefans_deco:globe"
+  }
+}

@@ -1,3 +1,5 @@
 /setblock 6 55 6 stefans_deco:example_block
 /give @s minecraft:zombified_piglin_spawn_egg
 /give @s stefans_deco:small_stone
+/reload
+/recipe give @a *
