@@ -7,7 +7,7 @@ forgedatadev
 --assetIndex
 17
 --assetsDir
-/Users/Stefan/.gradle/caches/neoformruntime/assets
+C:\\Users\\m.flammini\\.gradle\\caches\\neoformruntime\\assets
 --gameDir
 .
 --fml.fmlVersion
@@ -24,6 +24,6 @@ forgedatadev
 stefans_deco
 --all
 --output
-/Users/Stefan/Desktop/stefans_deco/src/generated/resources
+C:\\Users\\m.flammini\\Documents\\GitHub\\stefans_deco\\src\\generated\\resources
 --existing
-/Users/Stefan/Desktop/stefans_deco/src/main/resources
+C:\\Users\\m.flammini\\Documents\\GitHub\\stefans_deco\\src\\main\\resources
