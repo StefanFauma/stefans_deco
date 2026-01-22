@@ -97,7 +97,7 @@ public class small_stone {
             return rotateShape(HITBOX, state.getValue(FACING));
         }
 
-        //Block kann nur auf vollen Blöcken plaziert werden
+        //Block kann nur auf vollen Blöcken platziert werden
         @Override
         public boolean canSurvive(BlockState state, LevelReader level, BlockPos pos) {
             BlockPos below = pos.below();
