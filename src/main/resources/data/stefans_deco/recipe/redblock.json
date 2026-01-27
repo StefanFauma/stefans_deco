@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shapeless",
+  "category": "misc",
   "ingredients": [
     {
       "item": "minecraft:red_concrete"
@@ -9,7 +10,7 @@
     }
   ],
   "result": {
-    "item": "stefans_deco:redblock",
-    "count": 1
+    "count": 1,
+    "id": "stefans_deco:redblock"
   }
 }
