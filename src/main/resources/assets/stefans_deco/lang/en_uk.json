@@ -7,5 +7,12 @@
     "item.stefans_deco.mirror": "Mirror",
     "item.stefans_deco.stack_of_books": "Stack Of Books",
     "item.stefans_deco.globe": "Globe",
-    "item.stefans_deco.redblock": "Red Block"
+    "block.stefans_deco.redblock": "Red Block",
+    "block.stefans_deco.greenblock": "Green Block",
+    "block.stefans_deco.blueblock": "Blue Block",
+    "block.stefans_deco.yellowblock": "Yellow Block",
+    "item.stefans_deco.redblock": "Red Block",
+    "item.stefans_deco.greenblock": "Green Block",
+    "item.stefans_deco.blueblock": "Blue Block",
+    "item.stefans_deco.yellowblock": "Yellow Block"
 }

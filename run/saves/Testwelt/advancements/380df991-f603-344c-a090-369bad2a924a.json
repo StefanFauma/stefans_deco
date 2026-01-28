@@ -7679,5 +7679,11 @@
     },
     "done": true
   },
+  "minecraft:husbandry/make_a_sign_glow": {
+    "criteria": {
+      "make_a_sign_glow": "2026-01-27 20:37:36 +0100"
+    },
+    "done": true
+  },
   "DataVersion": 3955
 }

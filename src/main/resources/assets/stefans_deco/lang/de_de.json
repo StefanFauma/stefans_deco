@@ -7,5 +7,8 @@
     "item.stefans_deco.mirror": "Spiegel",
     "item.stefans_deco.stack_of_books": "Bücherstapel",
     "item.stefans_deco.globe": "Globus",
-    "item.stefans_deco.redblock": "Roter Block"
+    "item.stefans_deco.redblock": "Roter Block",
+    "item.stefans_deco.greenblock": "Grüner Block",
+    "item.stefans_deco.blueblock": "Blauer Block",
+    "item.stefans_deco.yellowblock": "Gelber Block"
 }
