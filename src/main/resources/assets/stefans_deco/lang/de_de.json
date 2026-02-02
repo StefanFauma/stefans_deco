@@ -7,8 +7,27 @@
     "item.stefans_deco.mirror": "Spiegel",
     "item.stefans_deco.stack_of_books": "Bücherstapel",
     "item.stefans_deco.globe": "Globus",
+
     "item.stefans_deco.redblock": "Roter Block",
     "item.stefans_deco.greenblock": "Grüner Block",
     "item.stefans_deco.blueblock": "Blauer Block",
-    "item.stefans_deco.yellowblock": "Gelber Block"
+    "item.stefans_deco.yellowblock": "Gelber Block",
+    "item.stefans_deco.pinkblock": "Pinker Block",
+    "item.stefans_deco.limeblock": "Hellgrüner Block",
+    "item.stefans_deco.purpleblock": "Lila Block",
+    "item.stefans_deco.orangeblock": "Oranger Block",
+    "item.stefans_deco.whiteblock": "Weißer Block",
+    "item.stefans_deco.blackblock": "Schwarzer Block",
+
+
+    "block.stefans_deco.redblock": "Roter Block",
+    "block.stefans_deco.greenblock": "Grüner Block",
+    "block.stefans_deco.blueblock": "Blauer Block",
+    "block.stefans_deco.yellowblock": "Gelber Block",
+    "block.stefans_deco.pinkblock": "Pinker Block",
+    "block.stefans_deco.limeblock": "Hellgrüner Block",
+    "block.stefans_deco.purpleblock": "Lila Block",
+    "block.stefans_deco.orangeblock": "Oranger Block",
+    "block.stefans_deco.whiteblock": "Weißer Block",
+    "block.stefans_deco.blackblock": "Schwarzer Block"
 }
