@@ -37,8 +37,7 @@ public class redblock {
                     () -> new Block(
                             BlockBehaviour.Properties.of()
                                     .strength(0.1f, 1f)
-                    )
-            );
+                    ));
 
     //
     // BlockItem

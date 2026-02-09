@@ -17,10 +17,14 @@ public class reflectiveglass {
     //
     // Item
     //
-    public static final DeferredItem<BlockItem> REFLECTIVEGLASS_ITEM =
+    public static final DeferredItem<Item> REFLECTIVEGLASS_ITEM =
             Stefans_deco.ITEMS.register(
                     "reflectiveglass",
+                    () -> new Item(
+                            new Item.Properties()
+                    )
             );
+
 
     //
     // Creative Tab
