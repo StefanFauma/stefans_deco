@@ -29,6 +29,7 @@
   "item.stefans_deco.purpleblock": "Blue Block",
   "item.stefans_deco.orangeblock": "Yellow Block",
   "item.stefans_deco.whiteblock": "White Block",
-  "item.stefans_deco.blackblock": "Black Block"
-}
+  "item.stefans_deco.blackblock": "Black Block",
 
+  "item.stefans_deco.reflectiveglass": "Reflectiveglass"
+}

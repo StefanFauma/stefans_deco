@@ -29,5 +29,7 @@
     "block.stefans_deco.purpleblock": "Lila Block",
     "block.stefans_deco.orangeblock": "Oranger Block",
     "block.stefans_deco.whiteblock": "Weißer Block",
-    "block.stefans_deco.blackblock": "Schwarzer Block"
+    "block.stefans_deco.blackblock": "Schwarzer Block",
+
+    "item.stefans_deco.reflectiveglass": "Spiegelndes Glas"
 }
