@@ -1,4 +1,4 @@
-package stefans_deco.stefans_deco.BlocksAndItems;
+package stefans_deco.stefans_deco.BlocksAndItems.ColorBlocks;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;

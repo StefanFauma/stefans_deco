@@ -9,3 +9,4 @@
 /recipe give @a *
 /give @s stefans_deco:reflectiveglass
 /recipe give @s *
+/reload
