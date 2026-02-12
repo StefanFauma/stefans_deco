@@ -10,7 +10,6 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.neoforge.registries.DeferredRegister;
 import org.slf4j.Logger;
 import stefans_deco.stefans_deco.BlocksAndItems.CreativeDecoTab;
-import stefans_deco.stefans_deco.BlocksAndItems.ModItems;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
 @Mod(Stefans_deco.MODID)
@@ -36,7 +35,6 @@ public class Stefans_deco {
         // Register the Deferred Register to the mod event bus so items get registered
         ITEMS.register(modEventBus);
         // Register the Deferred Register to the mod event bus so tabs get registered
-        ModItems.register(modEventBus);
         CreativeDecoTab.register(modEventBus);
 
 

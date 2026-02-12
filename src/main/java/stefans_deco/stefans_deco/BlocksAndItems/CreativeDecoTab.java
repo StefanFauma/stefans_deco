@@ -20,13 +20,12 @@ public class CreativeDecoTab {
                     CreativeModeTab.builder()
                             .title(Component.translatable("creativetab.stefans_deco.BlocksAndItems"))
                             .displayItems((params, output) -> {
-                                ModItems.ITEMS.getEntries().forEach(item -> {
-                                    output.accept(item.get(globe.GLOBE_ITEM));
-                                });
+                                // Hier deine Items hinzufügen, z.B.:
+                                // output.accept(ModItems.DEIN_ITEM.get());
                             })
                             .build()
             );
+
     public static void register(IEventBus eventBus) {
         CREATIVE_MODE_TAB.register(eventBus);
-    }
-}
+    }}
