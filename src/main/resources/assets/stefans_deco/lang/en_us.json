@@ -31,5 +31,6 @@
   "item.stefans_deco.whiteblock": "White Block",
   "item.stefans_deco.blackblock": "Black Block",
 
-  "item.stefans_deco.reflectiveglass": "Reflectiveglass"
+  "item.stefans_deco.reflectiveglass": "Reflectiveglass",
+  "creativetab.stefans_deco": "Deco"
 }
