@@ -22,7 +22,7 @@
 
     "block.stefans_deco.redblock": "Roter Block",
     "block.stefans_deco.greenblock": "Grüner Block",
-    "block.stefans_deco.blueblock": "Blauer Block",
+    "block.stefans_deco.blueblock": "§9Blauer Block§r",
     "block.stefans_deco.yellowblock": "Gelber Block",
     "block.stefans_deco.pinkblock": "Pinker Block",
     "block.stefans_deco.limeblock": "Hellgrüner Block",
@@ -31,5 +31,8 @@
     "block.stefans_deco.whiteblock": "Weißer Block",
     "block.stefans_deco.blackblock": "Schwarzer Block",
 
-    "item.stefans_deco.reflectiveglass": "Spiegelndes Glas"
+    "item.stefans_deco.reflectiveglass": "Spiegelndes Glas",
+
+    "creativetab.stefans_deco.creativetab": "",
+
 }

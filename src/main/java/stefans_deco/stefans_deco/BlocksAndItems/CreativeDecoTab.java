@@ -18,10 +18,11 @@ public class CreativeDecoTab {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> DECO_ITEMS_TAB =
             CREATIVE_MODE_TAB.register("deco_items", () ->
                     CreativeModeTab.builder()
-                            .title(Component.translatable("itemGroup.stefans_deco"))
-                            .icon(() -> new ItemStack(ModItems.DECO.get()))
+                            .title(Component.translatable("creativetab.stefans_deco.BlocksAndItems"))
                             .displayItems((params, output) -> {
-                                output.accept(ModItems.DECO.get());
+                                ModItems.ITEMS.getEntries().forEach(item -> {
+                                    output.accept(item.get(globe.GLOBE_ITEM));
+                                });
                             })
                             .build()
             );
