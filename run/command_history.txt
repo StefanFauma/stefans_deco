@@ -10,3 +10,12 @@
 /give @s stefans_deco:reflectiveglass
 /recipe give @s *
 /reload
+/clone 2 55 22
+/clone 2 55 22 -12 55 24. to minecraft:overworld -12 55 24
+/clone 2 55 22 ~ ~ ~ to minecraft:overworld -12 55 24
+/clone from 2 55 22 ~ ~ ~ to minecraft:overworld -12 55 24
+/clone 2 55 22 ~ ~ ~ to minecraft:overworld -12 55 34
+/fill -6 56 34
+/fill -6 56 34 ~ ~ ~ stefans_deco:reflectiveglassblock replace orange_b
+/fill -6 56 34 ~ ~ ~ stefans_deco:reflectiveglassblock replace stefans_deco:orangeblock
+/fill -6 55 34 ~ ~ ~ stefans_deco:reflectiveglassblock replace stefans_deco:orangeblock

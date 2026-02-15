@@ -1,0 +1,61 @@
+package stefans_deco.stefans_deco.BlocksAndItems.ColorBlocks;
+
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
+import net.neoforged.neoforge.registries.DeferredBlock;
+import net.neoforged.neoforge.registries.DeferredItem;
+import stefans_deco.stefans_deco.Stefans_deco;
+import net.minecraft.world.level.block.RenderShape;
+import net.minecraft.world.level.block.state.BlockState;
+
+
+@EventBusSubscriber(modid = Stefans_deco.MODID, bus = EventBusSubscriber.Bus.MOD)
+public class reflectiveglassblock {
+
+    //
+    // Block
+    //
+    public static final DeferredBlock<Block> REFLECTIVEGLASS =
+            Stefans_deco.BLOCKS.register(
+                    "reflectiveglassblock",
+                    () -> new Block(
+                            BlockBehaviour.Properties.of()
+                                    .strength(0.1f, 1f)
+                                    .noOcclusion()
+                                    .lightLevel(state -> 0)
+                    ) {
+                        @Override
+                        public RenderShape getRenderShape(BlockState state) {
+                            return RenderShape.INVISIBLE;
+                        }
+                    }
+            );
+
+    //
+    // BlockItem
+    //
+    public static final DeferredItem<BlockItem> REFLECTIVEGLASSBLOCK_ITEM =
+            Stefans_deco.ITEMS.register(
+                    "reflectiveglassblock",
+                    () -> new BlockItem(
+                            REFLECTIVEGLASS.get(),
+                            new Item.Properties()
+                    )
+            );
+
+    //
+    // Creative Tab
+    //
+    @SubscribeEvent
+    public static void addCreative(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(REFLECTIVEGLASSBLOCK_ITEM);
+        }
+    }
+}
