@@ -13,6 +13,10 @@ import net.neoforged.neoforge.registries.DeferredItem;
 import stefans_deco.stefans_deco.Stefans_deco;
 import net.minecraft.world.level.block.RenderShape;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.core.particles.BlockParticleOption;
+import net.minecraft.core.particles.ParticleOptions;
+import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.world.level.block.Blocks;
 
 
 @EventBusSubscriber(modid = Stefans_deco.MODID, bus = EventBusSubscriber.Bus.MOD)
@@ -34,8 +38,17 @@ public class reflectiveglassblock {
                         public RenderShape getRenderShape(BlockState state) {
                             return RenderShape.INVISIBLE;
                         }
+
+                        @Override
+                        public ParticleOptions getDustParticle(BlockState state) {
+                            return new BlockParticleOption(
+                                    ParticleTypes.BLOCK,
+                                    net.minecraft.world.level.block.Blocks.GLASS.defaultBlockState()
+                            );
+                        }
                     }
-            );
+        );
+    }
 
     //
     // BlockItem

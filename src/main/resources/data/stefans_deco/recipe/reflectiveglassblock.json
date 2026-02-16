@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "stefans_deco:reflectiveglass"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "stefans_deco:reflectiveglassblock"
+  }
+}
