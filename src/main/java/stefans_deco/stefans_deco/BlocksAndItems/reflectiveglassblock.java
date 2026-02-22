@@ -1,4 +1,4 @@
-package stefans_deco.stefans_deco.BlocksAndItems.ColorBlocks;
+package stefans_deco.stefans_deco.BlocksAndItems;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -32,23 +32,11 @@ public class reflectiveglassblock {
                             BlockBehaviour.Properties.of()
                                     .strength(0.1f, 1f)
                                     .noOcclusion()
-                                    .lightLevel(state -> 0)
-                    ) {
-                        @Override
-                        public RenderShape getRenderShape(BlockState state) {
-                            return RenderShape.INVISIBLE;
-                        }
-
-                        @Override
-                        public ParticleOptions getDustParticle(BlockState state) {
-                            return new BlockParticleOption(
-                                    ParticleTypes.BLOCK,
-                                    net.minecraft.world.level.block.Blocks.GLASS.defaultBlockState()
-                            );
-                        }
-                    }
+                                    .isViewBlocking((state, level, pos) -> false)
+                                    .isSuffocating((state, level, pos) -> false)
+                                    .isRedstoneConductor((state, level, pos) -> false)
+                    )
         );
-    }
 
     //
     // BlockItem
