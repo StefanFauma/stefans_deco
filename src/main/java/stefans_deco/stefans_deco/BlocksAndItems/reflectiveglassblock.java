@@ -32,11 +32,13 @@ public class reflectiveglassblock {
                             BlockBehaviour.Properties.of()
                                     .strength(0.1f, 1f)
                                     .noOcclusion()
-                                    .isViewBlocking((state, level, pos) -> false)
-                                    .isSuffocating((state, level, pos) -> false)
-                                    .isRedstoneConductor((state, level, pos) -> false)
-                    )
-        );
+                    ) {
+                        @Override
+                        public RenderShape getRenderShape(BlockState state) {
+                            return RenderShape.INVISIBLE;
+                        }
+                    }
+            );
 
     //
     // BlockItem

@@ -19,3 +19,4 @@
 /fill -6 56 34 ~ ~ ~ stefans_deco:reflectiveglassblock replace orange_b
 /fill -6 56 34 ~ ~ ~ stefans_deco:reflectiveglassblock replace stefans_deco:orangeblock
 /fill -6 55 34 ~ ~ ~ stefans_deco:reflectiveglassblock replace stefans_deco:orangeblock
+/enchant @s minecraft:silk_touch
