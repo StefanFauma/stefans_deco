@@ -3,6 +3,7 @@
     "block.stefans_deco.mirror": "Spiegel",
     "block.stefans_deco.stack_of_books": "Bücherstapel",
     "block.stefans_deco.globe": "Globus",
+    "block.stefans_deco.ink_pot": "Tintenfass",
     "item.stefans_deco.small_stone": "Steinchen",
     "item.stefans_deco.mirror": "Spiegel",
     "item.stefans_deco.stack_of_books": "Bücherstapel",
@@ -31,6 +32,7 @@
     "block.stefans_deco.whiteblock": "Weißer Block",
     "block.stefans_deco.blackblock": "Schwarzer Block",
 
+    "item.stefans_deco.ink_pot": "Tintenfass",
     "item.stefans_deco.reflectiveglass": "Spiegelndes Glas",
     "block.stefans_deco.reflectiveglassblock": "Spiegelnder Block",
     "item.stefans_deco.reflectiveglassblock": "---Nichts---",
